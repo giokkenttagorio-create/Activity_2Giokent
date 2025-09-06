@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Homepage</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: repeating-linear-gradient(
+        45deg,
+        #ffffff,
+        #ffffff 10px,
+        #f0f0f0 10px,
+        #f0f0f0 20px
+      );
+      border: 1px solid #000;
+      padding: 40px 50px;
+      border-radius: 6px;
+      width: 400px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      text-align: left;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .description {
+      text-align: left;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    .button {
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #000;
+      background-color: #ffffff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #eeeeee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to our website!</h1>
+
+    <div class="section-title">Create an account</div>
+    <button class="button">Get Started</button>
+
+    <div class="section-title">About us</div>
+    <div class="description">
+      We are a small team passionate about building simple,<br>
+      useful, and user-friendly tools for everyone.
+    </div>
+  </div>
+</body>
+</html>
